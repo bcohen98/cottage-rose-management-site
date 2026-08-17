@@ -82,9 +82,14 @@
     })
       .then(function (response) {
         if (response.ok) {
+          form.reset();
           form.hidden = true;
           if (successPanel) successPanel.hidden = false;
           if (statusEl) statusEl.className = "form-status";
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Send Message";
+          }
         } else {
           return response.json().then(function (data) {
             var message =

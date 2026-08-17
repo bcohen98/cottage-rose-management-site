@@ -44,5 +44,5 @@
 
   <!-- radius label -->
   <text x="450" y="620" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="0.5" fill="#2B2B28">~50-MINUTE OPERATING RADIUS</text>
-  <text x="450" y="646" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#1B2A38" font-weight="600">1–4 unit &amp; small multifamily focus</text>
+  <text x="450" y="646" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#1B2A38" font-weight="600">Residential &amp; multifamily, 1–100 units</text>
 </svg>
