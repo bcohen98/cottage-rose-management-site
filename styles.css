@@ -790,12 +790,6 @@ textarea { resize: vertical; min-height: 120px; }
   gap: 0.5rem 1.5rem;
   justify-content: space-between;
 }
-.footer-bottom .trec-note { max-width: 640px; }
-.footer-bottom .todo {
-  color: var(--olive);
-  font-weight: 600;
-}
-
 /* ---------- misc page bits ---------- */
 .page-hero {
   padding: clamp(3.5rem, 8vw, 5.5rem) 0 2.5rem;
