@@ -1,0 +1,49 @@
+<svg viewBox="0 0 960 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="isTitle isDesc">
+  <title id="isTitle">What we do: leasing, maintenance, operations, reporting</title>
+  <desc id="isDesc">Four icons representing leasing, maintenance, operations, and owner reporting.</desc>
+
+  <!-- Icon 1: Management / Leasing -->
+  <g transform="translate(60,20)">
+    <circle cx="90" cy="90" r="78" fill="#8C5A3C" opacity="0.12"/>
+    <circle cx="90" cy="90" r="78" fill="none" stroke="#8C5A3C" stroke-width="2"/>
+    <path d="M55 100 L90 68 L125 100 V128 H55 Z" fill="none" stroke="#1B2A38" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="82" y="105" width="16" height="23" fill="#1B2A38"/>
+    <circle cx="108" cy="80" r="6" fill="none" stroke="#8C5A3C" stroke-width="3"/>
+    <rect x="112" y="79" width="10" height="3" fill="#8C5A3C"/>
+    <text x="90" y="196" text-anchor="middle" font-family="Inter, sans-serif" font-size="17" font-weight="600" fill="#1B2A38">Leasing</text>
+  </g>
+
+  <!-- Icon 2: Maintenance -->
+  <g transform="translate(300,20)">
+    <circle cx="90" cy="90" r="78" fill="#435D43" opacity="0.12"/>
+    <circle cx="90" cy="90" r="78" fill="none" stroke="#435D43" stroke-width="2"/>
+    <path d="M60 120 L98 82" stroke="#1B2A38" stroke-width="5" stroke-linecap="round"/>
+    <path d="M96 60 a14 14 0 1 0 20 20 l-8 -4 l-8 -8 z" fill="none" stroke="#1B2A38" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="58" cy="122" r="9" fill="none" stroke="#435D43" stroke-width="4"/>
+    <text x="90" y="196" text-anchor="middle" font-family="Inter, sans-serif" font-size="17" font-weight="600" fill="#1B2A38">Maintenance</text>
+  </g>
+
+  <!-- Icon 3: Operations -->
+  <g transform="translate(540,20)">
+    <circle cx="90" cy="90" r="78" fill="#8C5A3C" opacity="0.12"/>
+    <circle cx="90" cy="90" r="78" fill="none" stroke="#8C5A3C" stroke-width="2"/>
+    <rect x="64" y="56" width="52" height="68" rx="6" fill="none" stroke="#1B2A38" stroke-width="4"/>
+    <rect x="80" y="50" width="20" height="10" rx="3" fill="#1B2A38"/>
+    <line x1="74" y1="78" x2="106" y2="78" stroke="#8C5A3C" stroke-width="3"/>
+    <line x1="74" y1="92" x2="106" y2="92" stroke="#8C5A3C" stroke-width="3"/>
+    <line x1="74" y1="106" x2="96" y2="106" stroke="#8C5A3C" stroke-width="3"/>
+    <text x="90" y="196" text-anchor="middle" font-family="Inter, sans-serif" font-size="17" font-weight="600" fill="#1B2A38">Operations</text>
+  </g>
+
+  <!-- Icon 4: Reporting -->
+  <g transform="translate(780,20)">
+    <circle cx="90" cy="90" r="78" fill="#435D43" opacity="0.12"/>
+    <circle cx="90" cy="90" r="78" fill="none" stroke="#435D43" stroke-width="2"/>
+    <rect x="62" y="54" width="56" height="70" rx="5" fill="none" stroke="#1B2A38" stroke-width="4"/>
+    <rect x="72" y="100" width="8" height="14" fill="#435D43"/>
+    <rect x="86" y="90" width="8" height="24" fill="#435D43"/>
+    <rect x="100" y="78" width="8" height="36" fill="#435D43"/>
+    <path d="M72 72 L86 62 L96 68 L108 58" fill="none" stroke="#1B2A38" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="196" text-anchor="middle" font-family="Inter, sans-serif" font-size="17" font-weight="600" fill="#1B2A38">Reporting</text>
+  </g>
+</svg>

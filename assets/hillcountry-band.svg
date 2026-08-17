@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1600 260" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice" role="img" aria-labelledby="hcTitle">
+  <title id="hcTitle">Texas Hill Country landscape, decorative</title>
+  <rect x="0" y="0" width="1600" height="260" fill="#E8E4D9"/>
+
+  <!-- back ridge -->
+  <path d="M0 160 Q200 100 420 150 T840 130 T1260 155 T1600 120 V260 H0 Z" fill="#435D43" opacity="0.18"/>
+  <!-- mid ridge -->
+  <path d="M0 190 Q220 140 460 185 T900 165 T1320 190 T1600 160 V260 H0 Z" fill="#8C5A3C" opacity="0.20"/>
+  <!-- front ridge -->
+  <path d="M0 220 Q260 175 520 215 T980 195 T1400 220 T1600 200 V260 H0 Z" fill="#1B2A38" opacity="0.14"/>
+
+  <!-- cedar trees, scattered clusters -->
+  <g fill="#2B2B28" opacity="0.35">
+    <g transform="translate(120,200)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+    <g transform="translate(340,215) scale(0.8)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+    <g transform="translate(560,195) scale(1.1)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+    <g transform="translate(820,210) scale(0.9)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+    <g transform="translate(1040,190) scale(1.05)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+    <g transform="translate(1280,212) scale(0.85)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+    <g transform="translate(1480,198) scale(1)"><path d="M0 30 L10 30 L10 20 L16 20 L6 4 L-4 20 L2 20 Z"/><path d="M0 20 L10 20 L10 10 L14 10 L6 -4 L-2 10 L2 10 Z"/></g>
+  </g>
+</svg>

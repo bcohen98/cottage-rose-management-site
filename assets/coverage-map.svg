@@ -1,0 +1,48 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmTitle cmDesc">
+  <title id="cmTitle">Service area coverage map</title>
+  <desc id="cmDesc">New Braunfels marked as home base with a roughly fifty minute operating radius, connected along the I-35 corridor to San Antonio to the south and San Marcos and Austin to the north.</desc>
+  <defs>
+    <radialGradient id="radiusFade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8C5A3C" stop-opacity="0.10"/>
+      <stop offset="80%" stop-color="#8C5A3C" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#8C5A3C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="700" fill="#FDFCF9"/>
+
+  <!-- hill country texture, base -->
+  <path d="M0 660 Q150 610 300 650 T600 640 T900 660 V700 H0 Z" fill="#435D43" opacity="0.08"/>
+  <path d="M0 680 Q200 645 450 675 T900 680 V700 H0 Z" fill="#8C5A3C" opacity="0.08"/>
+
+  <!-- radius ring -->
+  <circle cx="450" cy="380" r="190" fill="url(#radiusFade)" stroke="#8C5A3C" stroke-width="2" stroke-dasharray="6 8" opacity="0.85"/>
+
+  <!-- corridor line (I-35) -->
+  <line x1="450" y1="80" x2="450" y2="560" stroke="#1B2A38" stroke-width="4"/>
+  <line x1="450" y1="80" x2="450" y2="560" stroke="#FDFCF9" stroke-width="1" stroke-dasharray="10 10"/>
+
+  <!-- Austin -->
+  <circle cx="450" cy="80" r="9" fill="#1B2A38"/>
+  <text x="470" y="76" font-family="IBM Plex Mono, monospace" font-size="20" fill="#1B2A38">Austin</text>
+  <text x="470" y="98" font-family="IBM Plex Mono, monospace" font-size="13" fill="#2B2B28" opacity="0.7">I-35 corridor</text>
+
+  <!-- San Marcos -->
+  <circle cx="450" cy="220" r="8" fill="#1B2A38"/>
+  <text x="470" y="216" font-family="IBM Plex Mono, monospace" font-size="18" fill="#1B2A38">San Marcos</text>
+
+  <!-- New Braunfels: home base -->
+  <circle cx="450" cy="380" r="16" fill="#8C5A3C"/>
+  <circle cx="450" cy="380" r="16" fill="none" stroke="#1B2A38" stroke-width="2"/>
+  <circle cx="450" cy="380" r="26" fill="none" stroke="#8C5A3C" stroke-width="1.5" opacity="0.6"/>
+  <text x="475" y="374" font-family="Fraunces, serif" font-size="26" font-weight="600" fill="#1B2A38">New Braunfels</text>
+  <text x="475" y="398" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="1" fill="#8C5A3C">HOME BASE</text>
+
+  <!-- San Antonio -->
+  <circle cx="450" cy="560" r="9" fill="#1B2A38"/>
+  <text x="470" y="556" font-family="IBM Plex Mono, monospace" font-size="20" fill="#1B2A38">San Antonio</text>
+
+  <!-- radius label -->
+  <text x="450" y="620" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="0.5" fill="#2B2B28">~50-MINUTE OPERATING RADIUS</text>
+  <text x="450" y="646" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#1B2A38" font-weight="600">1–4 unit &amp; small multifamily focus</text>
+</svg>
